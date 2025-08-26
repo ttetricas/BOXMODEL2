@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+
+.paragrafo{
+    background-color:rgb(162, 128, 193);
+    border-left: 20px;
+    border-top: 20px;
+    border-style: groove;
+    border-color: rgb(60, 8, 109);
+    padding: 5px 20px 50px 5px ;
+    margin: 20px 10px 15px 10px;
+}
+
+.bloco{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.bloco1{
+    background-color: rgba(92, 3, 73);
+    color: rgba(229,204,222, 0.662);
+    box-shadow: -10px 10px 5px 1px rgb(157, 26, 144);
+}
+
+.bloco2{
+    background-color: brown;
+    box-shadow: 0 0 15px 5px red;
+    float: right;
+}
+
+.bloco2:hover{
+    width: 600px;
+    height: 150px;
+    background-color: black;
+    color: azure;
+}
